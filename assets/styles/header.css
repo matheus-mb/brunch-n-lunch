@@ -1,0 +1,37 @@
+.lista_cabecalho {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.cabecalho_dir {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 3rem;
+  text-transform: capitalize;
+}
+
+.nome-restaurante {
+  font-weight: 700;
+  letter-spacing: .5rem;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shopping-cart {
+  width: 36px;
+  position: relative;
+}
+
+.cart-quantity {
+  font-family: var(--fonte-2);
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  text-align: center;
+  right: 15.7rem;
+  background-color: white;
+}

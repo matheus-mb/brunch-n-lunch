@@ -1,0 +1,83 @@
+@media (max-width: 480px) {
+
+  .menu_hamburguer, .cart-quantity {
+    display: none;
+  }
+
+  .nome-restaurante {
+    width: 100%;
+    text-align: center;
+  }
+
+  .shopping-cart {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+  .titulo-menu {
+    margin-top: 30%;
+  }
+  
+  .prato {
+    min-width: 70%;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+ .prato {
+  min-width: 30vw;
+ }
+
+ .cabecalho_dir li p {
+  display: none;
+ }
+
+ .shopping-cart {
+  position: relative;
+ }
+
+ .cart-quantity {
+  margin: 0;
+  right: 3rem;
+ }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+ .prato {
+  min-width: 30vw;
+  min-height: min-content;
+ }
+
+ .shopping-cart {
+  position: relative;
+ }
+
+ .cart-quantity {
+  margin: 0;
+  right: 3rem;
+ }
+}
+
+@media (min-width:1025px) {
+  .menu {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .prato {
+    width: 18%;
+  }
+  
+  .shopping-cart {
+    position: relative;
+   }
+  
+   .cart-quantity {
+    margin: 0;
+    right: 3rem;
+   }
+}

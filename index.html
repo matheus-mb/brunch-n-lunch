@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brunch n Lunch</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="icon" href="assets/images/logo.png">
+</head>
+<body>
+  <header class="cabecalho">
+    <ul class="lista_cabecalho">
+      <li><img src="assets/images/menu.png" alt="menu hamburguer" class="menu_hamburguer"></li>
+      <li><p class="nome-restaurante">BRUNCH N LUNCH</p></li>
+      <div class="cabecalho_dir">
+        <li><a href="carrinho.html"><img src="assets/images/carrinho.png" class="shopping-cart"  alt=""></a></li>
+        <p class="cart-quantity js-quantidade">0</p>
+      </div>
+    </ul>
+  </header>
+
+  <main>
+    <section class="titulo-pagina">
+      <h1 class="titulo titulo-menu">home > menu</h1>
+    </section>
+
+    <section class="menu js-pratos"></section>
+  </main>
+  
+  <script type="module" src="main.js"></script>
+  <script type="module" src="checkout.js"></script>
+</body>
+</html>

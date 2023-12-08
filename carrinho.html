@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brunch n Lunch | Carrinho</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="stylesheet" href="./assets/styles/carrinho-responsivo.css">
+  <link rel="icon" href="assets/images/logo.png">
+</head>
+<body>
+  <header class="cabecalho">
+    <ul class="lista_cabecalho">
+      <li><img src="assets/images/menu.png" alt="menu hamburguer" class="menu-hamburguer"></li>
+      <li><a href="index.html"><p class="nome-restaurante">BRUNCH <span>N</span> LUNCH</p></a></li>
+      <div class="cabecalho_dir">
+        <li><img src="assets/images/carrinho.png" class="shopping-cart"  alt=""><p class="cart-quantity js-quantidade">0</p></li>
+        <li><p>O Restaurante</p></li>
+        <li><p>Contato</p></li>
+      </div>
+    </ul>
+  </header>
+
+  <main>
+    <h1 class="checkout_title">menu > checkout</h1>
+
+    <div class="pedidoCarrinho pedido-carrinho-js"></div>
+
+    <div class="resumo-compra"></div>
+
+  </main>
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="checkout.js"></script>
+  </body>
+</html>

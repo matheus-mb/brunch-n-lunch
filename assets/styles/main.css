@@ -1,0 +1,99 @@
+.titulo {
+  font-size: 1rem;
+  margin: 0 0 0 2.5rem;
+  padding: 0;
+  color: rgba(128, 128, 128, 0.659);
+  text-transform: capitalize;
+}
+
+.menu {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+
+}
+
+.prato {
+  height: 50vh;
+  width: 20%;
+  border: 3px solid black;
+  margin-bottom: 5rem;
+  border-radius: 26px;
+  background-color: white;
+  position: relative;
+}
+
+.cabecalho-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid black;
+  height: 3rem;
+  margin-top: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.add {
+  border: 2px solid black;
+  border-radius: 16px;
+  font-size: 2rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.tipo-prato {
+  border: 2px solid black;
+  border-radius: 25px;
+  width: fit-content;
+  padding: .7rem;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.nome-prato {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.descricao-prato {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: gray;
+}
+
+.serve {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: fit-content;
+  padding: .5rem;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.menu, .prato {
+  text-transform: initial;
+}
+
+.price-tag {
+  right: 1rem;
+  bottom: .5rem;
+  padding: .5rem;
+  border: 2px solid black;
+  border-radius: 24px;
+}
+
+.bottom-card {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+}
